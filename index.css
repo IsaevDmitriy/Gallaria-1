@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  }
+body {
+  background: #0f0f0f;
+}
+
+.main-wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background: #d8d9cd;
+}
+.flex {
+  display:flex;
+}
+aside {
+  width: 280px;
+  flex-shrink: 0;
+  background: white;
+}
+.fr {
+  float: right;
+}
+.video-footer .vf-controls {
+  width: 150px;
+  text-align: right;
+}
+.video-share {
+  display:inline;
+}
+.view-controls {
+  display: flex;
+  justify-content: flex-end;
+}
+.clearfix::after {
+  content:'';
+  display:table;
+  clear: both;
+}
+.card {
+  width: 600px;
+  height: 210px;
+  }
+.c-figure {
+  margin: 0;
+  float: left;
+  }
+footer{
+  background:#d8d9cd;
+}
+.background{
+  background: black;
+}
